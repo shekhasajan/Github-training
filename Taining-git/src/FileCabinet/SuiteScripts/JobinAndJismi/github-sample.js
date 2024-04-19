@@ -20,6 +20,7 @@ function (search) {
     
     let isSavedSearchCreated = checkSavedSearch();
 console.log('isSavedSearchCreated', isSavedSearchCreated);
+console.log('test')
 if (isSavedSearchCreated==0){
     let prevMonthCusSearch2 = search.create({
       type: "customer",
